@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Lecturer.h</itemPath>
+      <itemPath>SchoolMember.h</itemPath>
+      <itemPath>Student.h</itemPath>
+      <itemPath>Unit.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Lecturer.cpp</itemPath>
+      <itemPath>SchoolMember.cpp</itemPath>
+      <itemPath>Student.cpp</itemPath>
+      <itemPath>Unit.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1" displayName="TestCT2" projectFiles="true" kind="TEST">
+        <itemPath>testct2class.cpp</itemPath>
+        <itemPath>testct2class.h</itemPath>
+        <itemPath>testct2runner.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="Lecturer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lecturer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SchoolMember.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SchoolMember.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Student.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Student.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Unit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Unit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="testct2class.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="testct2class.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="testct2runner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Lecturer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Lecturer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SchoolMember.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SchoolMember.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Student.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Student.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Unit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Unit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </cTool>
+        <ccTool>
+          <commandLine>`cppunit-config --cflags`</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+          <linkerLibItems>
+            <linkerOptionItem>`cppunit-config --libs`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="testct2class.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="testct2class.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="testct2runner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

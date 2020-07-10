@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6473AEDF-49DB-46D4-BDD8-69459A78BCD9}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.OOP__PT13__3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Test\ProductTest.cs">
+    <Files>
+      <File FileName="Category\CategoryManagementModule.cs" Line="112" Column="7" />
+      <File FileName="Orders\OrderManagementModule.cs" Line="18" Column="32" />
+      <File FileName="Orders\Order.cs" Line="41" Column="1" />
+      <File FileName="Member\MemberManagementModule.cs" Line="30" Column="17" />
+      <File FileName="Member\Member.cs" Line="37" Column="7" />
+      <File FileName="Product\Product.cs" Line="88" Column="7" />
+      <File FileName="Category\Category.cs" Line="28" Column="4" />
+      <File FileName="Program.cs" Line="29" Column="8" />
+      <File FileName="Verification\Verification.cs" Line="30" Column="1" />
+      <File FileName="UserAccount\UserAccount.cs" Line="8" Column="16" />
+      <File FileName="UserAccount\AdministratorAccount.cs" Line="25" Column="27" />
+      <File FileName="UserAccount\StaffAccount.cs" Line="11" Column="1" />
+      <File FileName="Verification\StaffVerification.cs" Line="52" Column="16" />
+      <File FileName="Verification\AdminVerification.cs" Line="67" Column="41" />
+      <File FileName="Product\ProductManagementModule.cs" Line="150" Column="17" />
+      <File FileName="Test\ProductTest.cs" Line="58" Column="48" />
+      <File FileName="Test\CategoryTest.cs" Line="16" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
